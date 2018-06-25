@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="gmailTests">
+        <methods>
+          <include name="loginGmail"/>
+          <include name="updateUnreadMails"/>
+          <include name="close"/>
+          <include name="unreadMails"/>
+          <include name="LaunchSignInPage"/>
+          <include name="readFirstUnreadMail"/>
+        </methods>
+      </class> <!-- gmailTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

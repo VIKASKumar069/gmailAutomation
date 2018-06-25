@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39983" started-at="2018-06-24T11:47:25Z" finished-at="2018-06-24T11:48:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39983" started-at="2018-06-24T11:47:25Z" finished-at="2018-06-24T11:48:05Z">
+      <class name="gmailTests">
+        <test-method status="PASS" signature="LaunchSignInPage()[pri:0, instance:gmailTests@5034c75a]" name="LaunchSignInPage" is-config="true" duration-ms="17236" started-at="2018-06-24T17:17:25Z" finished-at="2018-06-24T17:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSignInPage -->
+        <test-method status="PASS" signature="loginGmail()[pri:0, instance:gmailTests@5034c75a]" name="loginGmail" duration-ms="4194" started-at="2018-06-24T17:17:42Z" finished-at="2018-06-24T17:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGmail -->
+        <test-method status="PASS" signature="unreadMails()[pri:0, instance:gmailTests@5034c75a]" name="unreadMails" duration-ms="10620" started-at="2018-06-24T17:17:47Z" finished-at="2018-06-24T17:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unreadMails -->
+        <test-method status="PASS" signature="readFirstUnreadMail()[pri:0, instance:gmailTests@5034c75a]" name="readFirstUnreadMail" duration-ms="660" started-at="2018-06-24T17:17:57Z" finished-at="2018-06-24T17:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFirstUnreadMail -->
+        <test-method status="PASS" signature="updateUnreadMails()[pri:0, instance:gmailTests@5034c75a]" name="updateUnreadMails" duration-ms="7244" started-at="2018-06-24T17:17:58Z" finished-at="2018-06-24T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUnreadMails -->
+        <test-method status="PASS" signature="close()[pri:0, instance:gmailTests@5034c75a]" name="close" is-config="true" duration-ms="0" started-at="2018-06-24T17:18:05Z" finished-at="2018-06-24T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- gmailTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
