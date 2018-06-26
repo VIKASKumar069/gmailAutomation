@@ -6,7 +6,6 @@
       <class name="gmailTests">
         <methods>
           <include name="loginGmail"/>
-          <include name="updateUnreadMails"/>
           <include name="close"/>
           <include name="unreadMails"/>
           <include name="LaunchSignInPage"/>
